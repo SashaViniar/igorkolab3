@@ -1,0 +1,112 @@
+ <!doctype html>
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<title>HearthMETA</title>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/styles.css" type="text/css">
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:400,300" type="text/css">
+
+	<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body style="background-image:url(images/bg.jpg)">
+<div id="wrapper">
+<header>
+	
+</header>
+		<nav>
+	<ul class="top-menu">
+		<li><a href="main.html">Головна</a></li>
+		<li class="active">Мета тижня</li>
+		<li><a href="types.html">Типи колод</a></li>
+		<li><a href="authorization.html">Авторизація</a></li>
+	</ul>
+		</nav>
+		<div id="heading">
+<table style="width:100%">
+  <tr>
+    <th>Рівень колоди</th>
+    <th>Назва колоди</th>
+    <th>Архетип колоди</th>
+  </tr>
+  <tr>
+    <td data-th="Рівень колоди">Tier 1</td>
+    <td data-th="Назава колоди">Pirate warrior</td>
+    <td data-th="Архетип колоди">Aggro</td>
+  </tr>
+  <tr>
+    <td data-th="Рівень колоди">Tier 1</td>
+    <td data-th="Назава колоди">Jade shaman</td>
+    <td data-th="Архетип колоди">Midrange</td>
+  </tr>
+  <tr>
+    <td data-th="Рівень колоди">Tier 2</td>
+    <td data-th="Назава колоди">Jade druid</td>
+    <td data-th="Архетип колоди">Midrange</td>
+  </tr>
+  <tr>
+    <td data-th="Рівень колоди">Tier 2</td>
+    <td data-th="Назава колоди">Reno warlock</td>
+    <td data-th="Архетип колоди">Control</td>
+  </tr>
+  <tr>
+    <td data-th="Рівень колоди">Tier 2</td>
+    <td data-th="Назава колоди">Dragon priest</td>
+    <td data-th="Архетип колоди">Midrange</td>
+  </tr>
+  <tr>
+    <td data-th="Рівень колоди">Tier 2</td>
+    <td data-th="Назава колоди">Aggro shaman</td>
+    <td data-th="Архетип колоди">Aggro</td>
+  </tr>
+  <tr>
+    <td data-th="Рівень колоди">Tier 2</td>
+    <td data-th="Назава колоди">Reno mage</td>
+    <td data-th="Архетип колоди">Control</td>
+  </tr>
+  <tr>
+    <td data-th="Рівень колоди">Tier 2</td>
+    <td data-th="Назава колоди">Miracle rogue</td>
+    <td data-th="Архетип колоди">Midrange</td>
+  </tr>
+</table>
+		</div>
+		<aside></aside>
+		<section></section>
+	</div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){    
+    $("#btn2").click(function(){
+      var card = document.getElementById("myinpt").value;
+        $("ol").append("<li>" + card + "</li>");
+    });
+});
+</script>
+<div class="container">
+  <div class="col-md-12">
+    <div class="col-md-4"></div>
+    <div class="col-md-4" style = "color:white"><p style = "text-align: center;"><input type="text" id = "myinpt"></p>
+<ol style = "text-align: center;">
+  <li>Tir 3</li>
+  <li>Tir 2</li>
+  <li>Tir 1</li>
+</ol>
+<p style="text-align: center;"><button id="btn2">Append list item</button></div></p>
+    <div class="col-md-4"></div>
+  </div>
+</div>
+
+
+	<footer></footer>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
